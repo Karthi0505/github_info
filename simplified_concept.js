@@ -27,13 +27,13 @@ async function get_user_details(username) {
 }
 get_user_details("Karthi0505");   
 
-// form.addEventListener('submit', function (e) {
-//     e.preventDefault();
+form.addEventListener('submit', function (e) {
+    e.preventDefault();
 
-//     const user_entered_name = search.value;
-//     if (user_entered_name) {
-//         get_user_details(user_entered_name);   
-//         // search.value = ''  //to empty the input field
-//     }
+    const user_entered_name = search.value;
+    if (user_entered_name) {
+        get_user_details(user_entered_name);   
+        // search.value = ''  //to empty the input field
+    }
 
-// });
+});
