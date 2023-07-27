@@ -24,8 +24,7 @@ async function get_user_details(username) {
         <p>Updated at: ${parsed_data.updated_at}</p>
     `;
     main.innerHTML = data_in_html;
-}
-get_user_details("Karthi0505");   
+}  
 
 form.addEventListener('submit', function (e) {
     e.preventDefault();
